@@ -1,0 +1,325 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+            /*  Adding background image  */
+            body{
+                background:url("bckgrnd.png");
+            }
+
+            
+            /* Adding length of bar & drop  */
+            .menudropdown1{
+                padding: 25px 0px 0px 0px;
+                padding-left: 250px;     
+                width: 80%;
+                height: 200px;
+                margin: 0px auto;
+
+            }
+            .menudropdown1 ul li{
+                padding: 0px;
+            }
+            /* Adding Text  colour font size of dropdown  */
+            .menudropdown1 ul li{
+                float: left;
+                background-color: rgb(238, 94, 94);
+                color: rgb(255, 255, 255);
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                list-style-type: none;
+                opacity: 1;
+            }
+            /* Hiding sub-list */
+            .menudropdown1 ul li ul{
+                display: none;
+            }
+            /* making dropdown  */
+            .menudropdown1 ul li:hover > ul {
+                display: block;
+            }
+            /* adding bcg-clr over dropdown bar */
+            .menudropdown1 ul li:hover{
+                background-color: rgb(192, 16, 16);
+                opacity: 1;
+            }
+            /* making second sublisted unorder list drop bar */
+            .menudropdown1 ul li ul li{
+                position: relative;
+            }
+            .menudropdown1 ul li ul li ul{
+                position: absolute;
+                left: 160px;
+                top: 0px;
+            }
+.width-100{
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+}
+video{
+    position: absolute;
+    z-index: -85;
+    width: 100%;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.image{
+    width: 70%;
+    height: 500px;
+    margin: auto; 
+    box-shadow: 0px 0px 0px 5px rgb(132, 10, 10);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    transition: 1s;
+    position: absolute; 
+    animation: slide 25s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    5%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-100%);
+    }
+    15%{
+        transform: translateX(-100%);
+    }
+    20%{
+        transform: translateX(-200%);
+    }
+    25%{
+        transform: translateX(-200%);
+    }
+    30%{
+        transform: translateX(-300%);
+    }
+    35%{
+        transform: translateX(-300%);
+    }
+    40%{
+        transform: translateX(-400%);
+    }
+    45%{
+        transform: translateX(-400%);
+    }
+    50%{
+        transform: translateX(-500%);
+    }
+    55%{
+        transform: translateX(-500%);
+    }
+    60%{
+        transform: translateX(-600%);
+    }
+    65%{
+        transform: translateX(-600%);
+    }
+    70%{
+        transform: translateX(-700%);
+    }
+    75%{
+        transform: translateX(-700%);
+    }
+    80%{
+        transform: translateX(-800%);
+    }
+    85%{
+        transform: translateX(-800);
+    }
+    90%{
+        transform: translateX(-900%);
+    }
+    95%{
+        transform: translateX(-900%);
+    }
+    100%{
+        transform: translateX(-1000%);
+    }
+    105%{
+        transform: translateX(-1000%);
+    }
+}
+.container{
+    width: 1500px;
+    margin: 0px;
+}
+.top-header{
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+.news-list{
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+.headquote{
+
+    font-size: 18px;
+    color:blanchedalmond;
+    width: 80%;
+}
+.header-menu{
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo{
+        width: fit-content;
+        float: left;
+}
+.llo{
+    padding-top: 3px;
+    float: right;
+}
+.main-menu{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+.main-menu a{
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 12px;
+    text-decoration: none;
+}
+.main-menu li{
+    float: left;
+    padding: 20px; 
+}
+
+.slider-width{
+    width: 100%;
+    height: 60%;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+
+}
+.width-33{
+    width: 33%;
+    float: left;
+}
+.latest-news{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #fff;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.heading-section{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #3a3a3a ;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #3a3a3a;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: #fff;
+}
+.head-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.latest-news-ul{
+    padding: 0px;
+    list-style: none;
+}
+.latest-news-ul li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #fff;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.upcoming-event-list{
+    padding: 0px;
+    list-style: none;
+}
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.event-date{
+    background: #03a9f4;
+    width: 45px;
+    float: left;
+    text-align: center ;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    margin: 0px;
+}
+.foo{
+    padding: 0px 0px 20px 20px;
+    /* background-color: #afd6cc; */
+}
+.udaan{
+ display: block;
+}
+.link{ 
+    display: flex;
+    justify-content: flex-start;
+}
+.vl {
+    border-left: 6px solid black;
+    height: 250px;
+    padding-left: 5rem;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 9rem;
+    padding: 3rem ,2rem;
+  }
+  .footer-grid-heading{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .footer-link{
+    color: #777;
+    font-size: 1rem;
+  }
+.footer-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
